@@ -1,0 +1,43 @@
+.layout {
+    min-height: 100vh;
+}
+.header {
+    padding: 0px 32px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header_text {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.content {
+    padding: 16px 32px;
+}
+
+.overview {
+    padding: 32px 0px;
+    text-align: center;
+}
+
+.form {
+    width: 300px;
+}
+
+.table {
+    overflow-x: auto;
+    overflow-y: hidden;
+    flex: auto;
+}
+
+@media (max-width: 768px) {
+    .content {
+        padding: 16px 8px;
+    }
+
+    .form {
+        width: 100%;
+    }
+}

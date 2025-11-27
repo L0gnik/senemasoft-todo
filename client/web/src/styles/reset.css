@@ -1,0 +1,46 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+button,
+select,
+input,
+textarea {
+    appearance: none;
+    outline: none;
+    font: inherit;
+    background: none;
+    border: none;
+}
+
+html {
+    overflow-y: scroll;
+}
+
+img,
+picture {
+    max-width: 100%;
+    display: block;
+}
+
+button {
+    cursor: pointer;
+}
+
+fieldset {
+    border: 0;
+}
